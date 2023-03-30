@@ -1,0 +1,36 @@
+import streamlit as st
+import docx2txt
+from PyPDF2 import PdfReader
+
+import streamlit as st
+import streamlit.components.v1 as stc
+
+import pandas as pd
+
+# NLP package
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
+from spacy import displacy
+from textblob import TextBlob
+
+# Text cleaning package
+import neattext as nt
+import neattext.functions as nfx
+
+# utils
+from collections import Counter
+import base64
+import time
+
+# for plotting
+import matplotlib.pyplot as plt
+import matplotlib
+
+matplotlib.use("Agg")
+import seaborn as sns
+import plotly.express as px
+
+# wordcloud
+
+from wordcloud import WordCloud
